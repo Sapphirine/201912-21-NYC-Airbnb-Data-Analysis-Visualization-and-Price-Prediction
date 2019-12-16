@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>NYC Airbnb Price Prediction</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/full-width-pics.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">New York City Airbnb</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="prediction.html">Prediction
+            <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="map.html">Map</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header - set the background image for the header in the line below -->
+  <header class="py-5 bg-image-full" style="background-image: url('https://desktopwalls.net/wp-content/uploads/2015/12/New%20York%20City%20Manhattan%20Sunset%204K%20Ultra%20HD%20Desktop%20Wallpaper.jpg');">
+    <img class="img-fluid d-block mx-auto" src="https://chingu-airbnb-clone.herokuapp.com/static/media/Airbnb_Logo_B%C3%A9lo.svg_.d34e1619.png" alt="" height="200" width="200">
+  </header>
+
+  <!-- Content section -->
+  <section class="py-5">
+    <div class="container">
+      <h1>1. Data Visualization</h1>
+      <p class="lead">A Statistical Model to visualize Airbnb Listing price in NYC given listing information.</p>
+      <p></p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h4>1.1 Price Heat-map (<$500)</h4>
+      <p class="lead">Visualizing the data, drawing a simple geographical plot of prices below 500 dollars.</p>
+      <p></p>
+    </div>
+  </section>
+
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="py-5 bg-image-full"">
+    <div class="container">
+      <img src="img/heatmap.png"  width="550" >
+    </div>
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h4>1.2 Distribution of Prices</h4>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+    </div>
+  </section>
+
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="py-5 bg-image-full"">
+    <div class="container">
+      <img src="img/neighbor.png"  width="350" >
+      <img src="img/room.png"  width="350" >
+    </div>
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  </section>
+
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="py-5 bg-image-full"">
+    <div class="container">
+      <img src="img/neighborbar.png"  width="350" >
+      <img src="img/roombar.png"  width="350" >
+    </div>
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h4>1.3 Correlations</h4>
+      <p class="lead">Finding correlations between variables, we want to visualize all correlations.</p>
+      <p>Based on a scatter_matrix plot containing all predictors, there was no strong evidence for collinearity amongst the predictors. The correlation table shows that there is no strong relationship between price and other features. This indicates no feature needed to be taken out of data.</p>
+    </div>
+  </section>
+
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="py-5 bg-image-full"">
+    <div class="container">
+      <img src="img/correlation.png"  width="615" >
+    </div>
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  </section>
+
+<!-- PRICE PREDICTIOM -->
+
+  <!-- Content section -->
+  <section class="py-5">
+    <div class="container">
+      <h1>2. Price Prediction</h1>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.</p>
+    </div>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h4>2.1 Linear Regression</h4>
+      <p class="lead">Focuses on the conditional probability distribution of the response given the values of the predictors.</p>
+      <p>In statistics, linear regression is a linear approach to modeling the relationship between a scalar response (or dependent variable) and one or more explanatory variables (or independent variables). The case of one explanatory variable is called simple linear regression.</p>
+    </div>
+  </section>
+
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="py-5 bg-image-full"">
+    <div class="container">
+      <img src="img/linear1.png"  width="615" >
+      <img src="img/linear2.png"  width="615" >
+    </div>
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h4>2.2 Gradient Boost Regression</h4>
+      <p class="lead">Gradient boosting is typically used with decision trees (especially CART trees) of a fixed size as base learners.</p>
+      <p>Gradient boosting is a machine learning technique for regression and classification problems, which produces a prediction model in the form of an ensemble of weak prediction models, typically decision trees.</p>
+    </div>
+  </section>
+
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="py-5 bg-image-full"">
+    <div class="container">
+      <img src="img/GBoost1.png"  width="615" >
+      <img src="img/GBoost2.png"  width="615" >
+    </div>
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <h4>2.3 XGBoost Regression</h4>
+      <p class="lead">Can be used to solve regression, classification, ranking, and user-defined prediction problems.</p>
+      <p>XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks.</p>
+    </div>
+  </section>
+
+  <!-- Image Section - set the background image for the header in the line below -->
+  <section class="py-5 bg-image-full"">
+    <div class="container">
+      <img src="img/XGBoost1.png"  width="615" >
+      <img src="img/XGBoost2.png"  width="615" >
+    </div>
+    <!-- Put anything you want here! There is just a spacer below for demo purposes! -->
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">EECS 6893</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
